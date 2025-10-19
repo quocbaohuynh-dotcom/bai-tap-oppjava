@@ -1,11 +1,11 @@
-public class Employee {
+public class bai14 {
     private int id;
     private String firstName;
     private String lastName;
     private int salary;
 
   
-    public Employee(int id, String firstName, String lastName, int salary) {
+    public bai14(int id, String firstName, String lastName, int salary) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;

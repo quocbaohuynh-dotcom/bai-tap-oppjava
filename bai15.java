@@ -1,11 +1,11 @@
-public class InvoiceItem {
+public class bai15 {
   private String id;
     private String desc;
     private int qty;
     private double unitPrice;
 
     
-    public InvoiceItem(String id, String desc, int qty, double unitPrice) {
+    public bai15(String id, String desc, int qty, double unitPrice) {
         this.id = id;
         this.desc = desc;
         this.qty = qty;

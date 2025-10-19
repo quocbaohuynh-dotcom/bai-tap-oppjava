@@ -1,13 +1,13 @@
-public class Circle12 {
+public class bai12 {
       private double radius;
 
     // Default constructor sets radius to 1.0
-    public Circle12() {
+    public bai12() {
         this.radius = 1.0;
     }
 
     // Constructor with specified radius
-    public Circle12(double radius) {
+    public bai12(double radius) {
         this.radius = radius;
     }
 

@@ -1,15 +1,15 @@
-public class Rectangle {
+public class bai13 {
      private float length;
     private float width;
 
   
-    public Rectangle() {
+    public bai13() {
         this.length = 1.0f;
         this.width = 1.0f;
     }
 
  
-    public Rectangle(float length, float width) {
+    public bai13(float length, float width) {
         this.length = length;
         this.width = width;
     }

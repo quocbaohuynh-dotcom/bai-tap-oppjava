@@ -1,15 +1,15 @@
-public class Circle {
+public class bai11 {
      private double radius;
    private String color;
    
   
-   public Circle() {  
+   public bai11() {  
       radius = 1.0;
       color = "red";
    }
    
   
-   public Circle(double r) {
+   public bai11(double r) {
       radius = r;
       color = "red";
    }

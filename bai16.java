@@ -1,15 +1,15 @@
-public class Account {
+public class bai16 {
      private String id;
     private String name;
     private int balance;
 
-    public Account(String id, String name, int balance) {
+    public bai16(String id, String name, int balance) {
         this.id = id;
         this.name = name;
         this.balance = balance;
     }
 
-    public Account(String id, String name) {
+    public bai16(String id, String name) {
         this(id, name, 0);
     }
 
@@ -37,7 +37,7 @@ public class Account {
         }
     }
 
-    public void transferTo(Account anotherAccount, int amount) {
+    public void transferTo(bai16 anotherAccount, int amount) {
         if (amount > balance) {
             System.out.println("Amount exceeded balance");
         } else {
